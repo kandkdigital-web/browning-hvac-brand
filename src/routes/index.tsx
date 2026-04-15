@@ -97,7 +97,7 @@ function HomePage() {
                 </Button>
               </a>
               <Link to="/contact">
-                <Button variant="heroOutline" size="xl" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-foreground">
+                <Button variant="heroOutline" size="xl" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-foreground font-normal opacity-100 shadow-none">
                   Get a Free Quote
                 </Button>
               </Link>
