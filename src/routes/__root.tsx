@@ -35,6 +35,12 @@ export const Route = createRootRoute({
       { name: "author", content: "Browning HVAC Service" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { property: "og:title", content: "Browning HVAC Service | HVAC Contractor in Micanopy, FL" },
+      { name: "twitter:title", content: "Browning HVAC Service | HVAC Contractor in Micanopy, FL" },
+      { property: "og:description", content: "Browning HVAC Service provides expert heating, ventilation, and air conditioning services in Micanopy, FL and surrounding areas. Call (352) 670-9160." },
+      { name: "twitter:description", content: "Browning HVAC Service provides expert heating, ventilation, and air conditioning services in Micanopy, FL and surrounding areas. Call (352) 670-9160." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/d32b5c80-306b-42ed-802c-36a473ec5a2b" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/d32b5c80-306b-42ed-802c-36a473ec5a2b" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
