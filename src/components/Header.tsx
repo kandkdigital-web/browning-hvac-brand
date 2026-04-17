@@ -1,6 +1,7 @@
 import { Link, useLocation } from "@tanstack/react-router";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/logo.png";
 
 const navLinks = [
   { to: "/", label: "Home" },
@@ -21,11 +22,7 @@ export function Header() {
       <div className="container-narrow flex items-center justify-between h-16 lg:h-18">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2 shrink-0">
-          <div className="w-8 h-8 rounded-lg hvac-gradient flex items-center justify-center">
-            <svg className="w-5 h-5 text-primary-foreground" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-              <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
-            </svg>
-          </div>
+          <img src={logo} alt="Browning HVAC Service logo" width={40} height={40} className="w-10 h-10 object-contain" />
           <div className="flex flex-col leading-tight">
             <span className="text-sm font-bold text-foreground tracking-tight">Browning HVAC</span>
             <span className="text-[10px] text-muted-foreground font-medium tracking-wide uppercase">Service</span>
